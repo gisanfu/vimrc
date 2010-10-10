@@ -1,8 +1,18 @@
 " author: gisanfu
 
+" fast goback normal mode, and save file
 :imap <f2> <Esc>:w<CR>
 vnoremap <f2> <Esc>:w<CR>
 nnoremap <f2> <Esc>:w<CR>
+
+" search keyword, by this file
+nm      <f3>    /<c-r>0<cr>
+nm      <f4>    :wqa<cr>
+
+" fast goback normal mode, and save all file, than close all file
+:imap <f4> <Esc>:wqa<CR>
+vnoremap <f4> <Esc>:wqa<CR>
+nnoremap <f4> <Esc>:wqa<CR>
 
 " CTRL-x is cut (in visual mode only)
 vnoremap <C-x> "*d
