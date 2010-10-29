@@ -19,6 +19,9 @@ vnoremap <C-x> "*d
 " CTRL-c is copy (in visual mode only)
 vnoremap <C-c> "+y
 
+" 方便貼上而以
+nnoremap <f5> <Esc>:set paste<CR>"+p<Esc>:set nopaste<Esc>
+
 " 符號
 " 1. Interrobang (無蝦米的國字一，也就是e) => ! 驚嘆號
 " 2. Mouse (像英文的A) => @
