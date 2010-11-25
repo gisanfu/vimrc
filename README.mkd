@@ -1,0 +1,17 @@
+# Fast Change Dir #
+
+author: gisanfu
+
+## Develop environment
+
+ubuntu 9.10
+
+## 相依套件
+
+http://github.com/gisanfu/fast-change-dir.git
+
+## 主要特色
+
+- 快速存檔
+- 關閉全部頁面
+- 快速鍵更新firefox
