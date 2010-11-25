@@ -1,0 +1,2 @@
+# run cmd in background
+:call system('nautilus .')
