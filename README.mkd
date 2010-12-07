@@ -1,4 +1,4 @@
-# Fast Change Dir #
+# My Vimrc #
 
 author: gisanfu
 
