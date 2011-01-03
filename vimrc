@@ -23,9 +23,9 @@ vnoremap <C-c> "+y
 nnoremap <f5> <Esc>:set paste<CR>"+p<Esc>:set nopaste<Esc>
 
 " switch windows to firefox, and refresh it，這樣子左手就不用一直在按快速鍵
-:imap <f6> <Esc>:w<CR>:call system('/bin/gisanfu-cmd-refresh-firefox.sh')<cr>
-vnoremap <f6> <Esc>:w<CR>:call system('/bin/gisanfu-cmd-refresh-firefox.sh')<cr>
-nnoremap <f6> :call system('/bin/gisanfu-cmd-refresh-firefox.sh')<cr>
+:imap <f6> <Esc>:w<CR>:call system('/bin/gisanfu-cmd-refresh-firefox.sh refresh')<cr>
+vnoremap <f6> <Esc>:w<CR>:call system('/bin/gisanfu-cmd-refresh-firefox.sh refresh')<cr>
+nnoremap <f6> :call system('/bin/gisanfu-cmd-refresh-firefox.sh refresh')<cr>
 
 " 符號
 " 1. Interrobang (無蝦米的國字一，也就是e) => ! 驚嘆號
