@@ -1,0 +1,11 @@
+### Emacs和Vim比較的相關文章
+
+純表面說明
+
+<http://linuxtoy.org/archives/why-emacs-vim-good.html>
+
+### Emacs的相關文章
+
+Emacs的演進
+
+<http://lifegoo.pluskid.org/wiki/EmacsTimeline.html>
