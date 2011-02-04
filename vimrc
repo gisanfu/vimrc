@@ -23,14 +23,14 @@ vnoremap <C-c> "+y
 nnoremap <f5> <Esc>:set paste<CR>"+p<Esc>:set nopaste<Esc>
 
 " switch windows to firefox, and refresh it，這樣子左手就不用一直在按快速鍵
-:imap <f6> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/gisanfu-cmd-refresh-firefox.sh refresh')<cr>
-vnoremap <f6> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/gisanfu-cmd-refresh-firefox.sh refresh')<cr>
-nnoremap <f6> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/gisanfu-cmd-refresh-firefox.sh refresh')<cr>
+:imap <f6> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/bin/cmd-refresh-firefox.sh refresh')<cr>
+vnoremap <f6> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/bin/cmd-refresh-firefox.sh refresh')<cr>
+nnoremap <f6> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/bin/cmd-refresh-firefox.sh refresh')<cr>
 
 " 如果只是想在browser中查資料，而不需新refresh，那就按F7好了
-:imap <f7> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/gisanfu-cmd-refresh-firefox.sh switchonly')<cr>
-vnoremap <f7> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/gisanfu-cmd-refresh-firefox.sh switchonly')<cr>
-nnoremap <f7> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/gisanfu-cmd-refresh-firefox.sh switchonly')<cr>
+:imap <f7> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/bin/cmd-refresh-firefox.sh switchonly')<cr>
+vnoremap <f7> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/bin/cmd-refresh-firefox.sh switchonly')<cr>
+nnoremap <f7> <Esc>:w<CR>:call system('~/gisanfu/fast-change-dir/bin/cmd-refresh-firefox.sh switchonly')<cr>
 
 " 符號
 " 1. Interrobang (無蝦米的國字一，也就是e) => ! 驚嘆號
