@@ -3,6 +3,11 @@ set columns=120
 set lines=40
 set guifont=Monospace\ 12
 
+" 讓畫面更簡單，更乾靜
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+
 " 讓你打開的gvim視窗，能夠變成最大化
 " http://vim.wikia.com/wiki/Maximize_or_set_initial_window_size
 if has("gui_running")
