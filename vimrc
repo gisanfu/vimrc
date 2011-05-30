@@ -19,6 +19,15 @@ vnoremap <C-x> "*d
 " CTRL-c is copy (in visual mode only)
 vnoremap <C-c> "+y
 
+" 以下這兩個滑鼠的部份，是用在VM上面
+" 應該是說，用在windows的putty上
+" mouse enable
+"nnoremap <f5> :set mouse=a<CR>
+
+" mouse disable
+" windows copy&paste enable
+"nnoremap <f6> :set mouse=<CR>
+
 " 方便貼上而以
 nnoremap <f5> <Esc>:set paste<CR>"+p<Esc>:set nopaste<Esc>
 
