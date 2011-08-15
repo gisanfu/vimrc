@@ -1,3 +1,19 @@
+# update: 2011-08-16
+
+http://tech.16c.cn/linux/top/20100816/49723.html
+
+只要輸入以下的指令，就可以把內容送到clipboard剪貼簿裡面
+
+cat filename | xsel -b -i
+
+filename是文字檔
+
+在vim裡面，指令模式中，使用以下的指令：
+
+"+p
+
+就可以把文字檔裡面的內容，貼到vim裡面
+
 # update: 2011-01-27
 
 當我在按F5的時候，看要不要順利存檔，
